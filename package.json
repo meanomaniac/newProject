@@ -1,0 +1,36 @@
+{
+  "name": "facebook-sdk2",
+  "description": "A full port of Facebook's PHP SDK library",
+  "keywords": [
+    "facebook",
+    "sdk",
+    "graph",
+    "api",
+    "connect",
+    "canvas"
+  ],
+  "version": "0.3.2",
+  "author": "Christopher Johnson <tenorviol@yahoo.com> (http://github.com/tenorviol)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tenorviol/node-facebook-sdk.git"
+  },
+  "dependencies": {
+    "connect": "1.4.1",
+    "facebook-sdk": "^0.3.2",
+    "mysql": "^2.13.0"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "licenses": [
+    {
+      "type": "Apache License, Version 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  ],
+  "main": "lib/facebook",
+  "engines": {
+    "node": ">= 0.4"
+  }
+}
