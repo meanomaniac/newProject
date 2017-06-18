@@ -17,8 +17,8 @@ var con = mysql.createConnection({
 });
 
 con.connect(function(err) {
-  if (err) throw err;
-  console.log("Connected to Database!");
+/*  if (err) throw err;
+  console.log("Connected to Database!"); */
 });
 
 connect()
