@@ -1,7 +1,7 @@
 var connect = require('connect'),
     fbsdk = require('facebook-sdk');
 
-var port = 3000;
+var port = process.env.OPENSHIFT_NODEJS_PORT || 8080;
 var postsReceived = false;
 var gettingDataForPosts;
 var gettingData;
